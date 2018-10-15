@@ -4,13 +4,13 @@
  "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
   
  <hibernate-mapping>  
-  <class name="pkg.Attendence" table="ff08">  
+  <class name="pkg.Attendence" table="attendence">  
     <id name="sid">  
      <generator class="assigned"></generator>  
     </id>  
        
     <property name="date" type="date" ></property> 
-    <property name="absent" type="int"></property>
+    <property name="status" type="int"></property>
             
   </class>  
             

@@ -8,7 +8,7 @@ import java.sql.Date;
 public class Attendence {
  int sid;
  Date date;
- int absent;
+ int status;
 public int getSid() {
 	return sid;
 }
@@ -21,11 +21,11 @@ public Date getDate() {
 public void setDate(Date date) {
 	this.date = date;
 }
-public int getAbsent() {
-	return absent;
+public int getStatus() {
+	return status;
 }
-public void setAbsent(int absent) {
-	this.absent = absent;
+public void setStatus(int status) {
+	this.status = status;
 }public String execute() {
 	
 	
