@@ -1,7 +1,7 @@
 package pkg;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+
+
 import java.sql.Date;
 
 
@@ -33,7 +33,7 @@ public void setStatus(int status) {
 	 date=new java.sql.Date(millis);  
 	
 	
-	Insert.insert(this);
+	Operations.insert(this);
 	
 	return "success";
 }

@@ -8,7 +8,7 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
-public class Insert {
+public class Operations {
 
 	public static void insert(Attendence a) {
 		int i=0;    
