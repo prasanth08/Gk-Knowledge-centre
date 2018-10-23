@@ -11,7 +11,8 @@
        
     <property name="date" type="date" ></property> 
     <property name="status" type="int"></property>
+    <property name="reason" ></property>
             
-  </class>  
-            
+ </class>
+       
  </hibernate-mapping>  

@@ -9,6 +9,13 @@ public class Attendence {
  int sid;
  Date date;
  int status;
+ String reason;
+public String getReason() {
+	return reason;
+}
+public void setReason(String reason) {
+	this.reason = reason;
+}
 public int getSid() {
 	return sid;
 }

@@ -2,9 +2,9 @@
 <!DOCTYPE hibernate-mapping PUBLIC  
  "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
  "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
-  
+      
  <hibernate-mapping>  
-  <class name="pkg.Attendence" table="attendence">  
+  <class name="pkg.Calc" table="attendence">  
     <id name="sid">  
      <generator class="assigned"></generator>  
     </id>  
@@ -12,7 +12,8 @@
     <property name="date" type="date" ></property> 
     <property name="status" type="int"></property>
     <property name="reason" ></property>
-            
+         
  </class>
+
        
  </hibernate-mapping>  

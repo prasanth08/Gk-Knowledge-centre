@@ -14,7 +14,7 @@
 <property name="show_sql">true</property>
 <property name="hibernate.hbm2ddl.auto">update</property>
  
-<mapping resource="Attendence.hbm.xml"></mapping>
+
 <mapping resource="Calc.hbm.xml"></mapping>
 
 

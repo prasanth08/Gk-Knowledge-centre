@@ -15,5 +15,8 @@
 <property name="hibernate.hbm2ddl.auto">update</property>
  
 <mapping resource="Attendence.hbm.xml"></mapping>
+<mapping resource="Calc.hbm.xml"></mapping>
+
+
 </session-factory>
 </hibernate-configuration>
